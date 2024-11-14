@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Style Czcionek</title>
+
+<style>
+   
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+
+.font-style-box {
+    background-color: #fff;
+    border: 2px solid #ddd;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.font-style-box h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+
+.font-family {
+    font-family: 'Times New Roman', serif;
+}
+
+.font-size {
+    font-size: 24px;
+}
+
+.font-weight {
+    font-weight: bold;
+}
+
+.font-style {
+    font-style: italic;
+}
+
+.text-align {
+    text-align: center;
+}
+
+.text-transform {
+    text-transform: uppercase;
+}
+
+.text-decoration {
+    text-decoration: underline;
+}
+
+.letter-spacing {
+    letter-spacing: 2px;
+}
+
+.line-height {
+    line-height: 1.6;
+}
+
+</style>    
+</head>
+<body>
+    <div class="container">
+        <div class="font-style-box">
+            <h3>Krój czcionki</h3>
+            <p class="font-family">ustawia czcionkę dla tekstu.</p>
+        </div>
+        <div class="font-style-box">
+            <h3>Rozmiar czcionki</h3>
+            <p class="font-size"> ustawia rozmiar czcionki.</p>
+        </div>
+        <div class="font-style-box">
+            <h3>Waga czcionki</h3>
+            <p class="font-weight"> ustawia grubość czcionki.</p>
+        </div>
+        <div class="font-style-box">
+            <h3>Styl czcionki</h3>
+            <p class="font-style">ustawia styl czcionki.</p>
+        </div>
+        <div class="font-style-box">
+            <h3>Wyrównanie tekstu</h3>
+            <p class="text-align"> ustawia wyrównanie tekstu.</p>
+        </div>
+        <div class="font-style-box">
+            <h3>Przekształcenie tekstu</h3>
+            <p class="text-transform"> ustawia transformację tekstu (zmiana wielkości liter)..</p>
+        </div>
+        <div class="font-style-box">
+            <h3>Dekoracja tekstu</h3>
+            <p class="text-decoration"> ustawia dekorację tekstu.</p>
+        </div>
+        <div class="font-style-box">
+            <h3>Przestrzeń między literami</h3>
+            <p class="letter-spacing"> ustawia odstęp między literami w tekście.</p>
+        </div>
+        <div class="font-style-box">
+            <h3>Wysokość linii</h3>
+            <p class="line-height"> ustawia wysokość linii (odstęp między wierszami tekstu).</p>
+        </div>
+    </div>
+</body>
+</html>
